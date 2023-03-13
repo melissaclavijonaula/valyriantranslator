@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+@import url(//db.onlinewebfonts.com/c/97c4b25dc74e0ab045154e75a8fdd69d?family=Game+of+Thrones);
+
+:root {
+    --primary-color: #1F2937;
+}
+
+
+@font-face {font-family: "Game of Thrones"; src: url("//db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.eot"); src: url("//db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.woff") format("woff"), url("//db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.svg#Game of Thrones") format("svg"); }
+
+
+body {
+    font-family: 'Game of Thrones', monospace;
+    margin: 0;
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Game of Thrones', monospace;
+    margin: 0;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Game of Thrones', monospace;
+    margin: 0;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+p {
+    font-family: 'JetBrains Mono', monospace;
+    margin: 0;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+}
+.container-center1 {
+    max-width: 700px;
+    margin: auto;
+    background-color:black;
+}
+
+.container-center2 {
+    max-width: 700px;
+    margin: auto;
+    background-color: black;}
+
+.container-center3 {
+    max-width: 700px;
+    margin: auto;
+    background-color:black;
+}
+nav {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+textarea {
+    display: block;
+    height: 20vh;
+    width: 80%;
+    margin: 2rem auto;
+    border: 2px solid black;
+    padding: 1rem;
+    font-size: large;
+}
+
+button {
+    display: block;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    font-family: inherit;
+}
+
+button:hover {
+    background-color: grey;
+    color: black;
+}
+
+#txt-output {
+    display: block;
+    height: 20vh;
+    width: 80%;
+    margin: 2rem auto;
+    border: 2px solid black;
+    padding: 1rem;
+    font-size: large;
+    background-color: white;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 0.5rem 0rem;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    background-color: white;
+    color: var(--primary-color);
+    padding: 0rem 0.5rem;
+}
+
+#share-container span {
+  display: block;
+  margin: 3rem auto;
+  font-size: 50px;
+  padding: 1rem;
+  margin: 1rem;
+}
+#share-buttons i {
+  font-size: 50px;
+  margin: 5px;
+}
+.facebook {
+      color: #3b5998;
+}
+.twitter {
+    color: #55acee;
+}
+
+.whatsapp {
+    color: #25D366;
+}
+
+.facebook, .twitter, .whatsapp, {
+  opacity: 0.6;
+}
+.facebook:hover, .twitter:hover, .whatsapp:hover, {
+  opacity: 0.9;
+}
